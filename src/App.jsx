@@ -10,7 +10,7 @@ function App() {
         display: "flex", gap: '.75rem', flexDirection: "column"
     }}>{
         Array.from({length: 7}, (_, i) => (
-            <Card key={Date.now()} variant={'v' + ((i % 3) + 1)}/>
+            <Card key={Date.now() + i} variant={'v' + ((i % 3) + 1)}/>
         ))
     }</div>
 

@@ -1,1 +1,0 @@
-export {LoadFeature} from './LoadFeature/ui/LoadFeature.jsx';
