@@ -1,0 +1,28 @@
+.TeamCard {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.tatal {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  background: #101318;
+
+}
+
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  max-width: 15.5rem;
+}

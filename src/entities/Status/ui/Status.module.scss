@@ -1,0 +1,30 @@
+.StatusCard {
+  margin-top: .25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 5.75rem;
+  height: 1.6875rem;
+  border-radius: 4px;
+  padding: .125rem .375rem;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14.52px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.Finished {
+  background: #EB0237;
+
+}
+
+.Ongoing {
+  background: #43AD28;
+
+}
+
+.Scheduled {
+  background: #EB6402;
+}

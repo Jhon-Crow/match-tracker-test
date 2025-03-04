@@ -1,0 +1,22 @@
+.PlayerCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 17.875rem;
+  height: 3.25rem;
+  border-radius: 4px;
+  gap: 8px;
+  padding-right: 24px;
+  padding-left: 24px;
+
+  background: #101318;
+
+
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}

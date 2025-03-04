@@ -1,0 +1,55 @@
+.LoadButton {
+  display: flex;
+  justify-content: center;
+
+
+  width: 12.75rem;
+  height: 3.5rem;
+  border-radius: 4px;
+  padding: 1rem;
+  gap: .625rem;
+
+  .loader {
+    fill: white;
+  }
+
+  background: #EB0237;
+  color: #FFFFFF;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21.78px;
+  letter-spacing: 0%;
+
+  cursor: pointer;
+
+  &:active {
+    background: #A01131;
+  }
+
+  &:disabled {
+    background: #701328;
+    color: #787878;
+    cursor: inherit;
+
+    .loader {
+      fill: #787878;
+    }
+  }
+}
+
+.isLoading {
+  animation: spin 2s ease-in infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(360deg);
+  }
+  40% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
